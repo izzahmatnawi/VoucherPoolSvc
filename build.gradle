@@ -1,0 +1,7 @@
+buildscript {
+    ext {
+        springBootVersion = '1.5.13.RELEASE'
+        vpsVersion = '0.1.0'
+    }
+}
+

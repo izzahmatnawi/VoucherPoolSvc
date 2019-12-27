@@ -1,0 +1,3 @@
+include 'voucher-pool-service.app'
+include 'voucher-pool-service.component-test'
+

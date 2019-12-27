@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'org.springframework.boot'
+
+bootRepackage {
+    enabled = false
+}
+
+bootRun {
+    enabled = false
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile project(':voucher-pool-service.app')
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
