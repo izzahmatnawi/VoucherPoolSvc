@@ -28,5 +28,5 @@ C:\Program Files\MongoDB\Server\4.0\bin> mongod.exe --dbpath C:\VoucherPoolData
 
 (Test)
 - I prepared a swagger page for testing purposes, I sure hope it is intuitive enough.
-- Do have a look: http://localhost:8080/swagger-ui.htm
+- Do have a look: http://localhost:8080/swagger-ui.html
 
