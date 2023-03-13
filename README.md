@@ -2,9 +2,6 @@
 
 Hello!
 
-So sorry that I cannot manage to finish this in time as I have other commitments (aka current job).
-However, I've manage to get the bare bones running and hope it is enough for your consideration.
-
 Prerequisite to running this project (besides java):
 (Install MongoDB)
 - Download and set up a MongoDB server: I'm working with version 4.0
